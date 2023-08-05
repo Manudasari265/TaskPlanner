@@ -1,0 +1,26 @@
+.todo-item {
+    background-color: rgb(242, 210, 154);
+    border: 1px solid rgb(107, 104, 103);
+    border-radius: 12px;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    border-color: black;
+}
+
+.todo-delete {
+    align-items: center;
+    display: flex;
+}
+
+.todo-delete:hover {
+    cursor: pointer;
+}
+
+.icons-group{
+    display: flex;
+    width: 5rem;
+    justify-content: space-evenly;
+}
